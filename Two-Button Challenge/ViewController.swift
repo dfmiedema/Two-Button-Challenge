@@ -18,12 +18,14 @@ class ViewController: UIViewController {
     @IBAction func showMessagePressed(_ sender: UIButton) {
         messgaeLabel.text = "You Are Awesome!"
         messgaeLabel.textColor = UIColor.blue
+        messgaeLabel.textAlignment = .left
     }
     
     
     @IBAction func showAnotherMessagePressed(_ sender: UIButton) {
         messgaeLabel.text = "You Are Great!"
         messgaeLabel.textColor = .systemRed
+        messgaeLabel.textAlignment = .right
     }
     
 }
